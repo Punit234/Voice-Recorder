@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E58189A81C9C252A004A5CE2 /* Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58189A71C9C252A004A5CE2 /* Topbar.swift */; };
+		E58D64691C9AEF7C00841375 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58D64681C9AEF7C00841375 /* CFNetwork.framework */; };
+		E58D646D1C9AEFC600841375 /* PutController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D646C1C9AEFC600841375 /* PutController.m */; };
 		E5A8695D1C97DF2300123B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8695C1C97DF2300123B44 /* AppDelegate.swift */; };
 		E5A8695F1C97DF2300123B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8695E1C97DF2300123B44 /* ViewController.swift */; };
 		E5A869621C97DF2300123B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A869601C97DF2300123B44 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		E5A869671C97DF2300123B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A869651C97DF2300123B44 /* LaunchScreen.storyboard */; };
 		E5A869721C97DF2400123B44 /* RecordVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A869711C97DF2400123B44 /* RecordVoiceTests.swift */; };
 		E5A8697D1C97DF2400123B44 /* RecordVoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8697C1C97DF2400123B44 /* RecordVoiceUITests.swift */; };
+		E5A8698B1C97E13200123B44 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A8698A1C97E13100123B44 /* AVFoundation.framework */; };
+		E5A8698D1C97E13E00123B44 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A8698C1C97E13E00123B44 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E58189A71C9C252A004A5CE2 /* Topbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topbar.swift; sourceTree = "<group>"; };
+		E58D64681C9AEF7C00841375 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E58D646B1C9AEFC600841375 /* PutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutController.h; sourceTree = "<group>"; };
+		E58D646C1C9AEFC600841375 /* PutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutController.m; sourceTree = "<group>"; };
+		E58D646E1C9AEFEE00841375 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 		E5A869591C97DF2300123B44 /* RecordVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A8695C1C97DF2300123B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A8695E1C97DF2300123B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		E5A869781C97DF2400123B44 /* RecordVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A8697C1C97DF2400123B44 /* RecordVoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoiceUITests.swift; sourceTree = "<group>"; };
 		E5A8697E1C97DF2400123B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A8698A1C97E13100123B44 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E5A8698C1C97E13E00123B44 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58D64691C9AEF7C00841375 /* CFNetwork.framework in Frameworks */,
+				E5A8698D1C97E13E00123B44 /* AVKit.framework in Frameworks */,
+				E5A8698B1C97E13200123B44 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E58D646A1C9AEFC600841375 /* ApplePutVC */ = {
+			isa = PBXGroup;
+			children = (
+				E58D646B1C9AEFC600841375 /* PutController.h */,
+				E58D646C1C9AEFC600841375 /* PutController.m */,
+			);
+			path = ApplePutVC;
+			sourceTree = "<group>";
+		};
 		E5A869501C97DF2300123B44 = {
 			isa = PBXGroup;
 			children = (
+				E58D64681C9AEF7C00841375 /* CFNetwork.framework */,
+				E5A8698C1C97E13E00123B44 /* AVKit.framework */,
+				E5A8698A1C97E13100123B44 /* AVFoundation.framework */,
 				E5A8695B1C97DF2300123B44 /* RecordVoice */,
 				E5A869701C97DF2400123B44 /* RecordVoiceTests */,
 				E5A8697B1C97DF2400123B44 /* RecordVoiceUITests */,
@@ -97,12 +124,15 @@
 		E5A8695B1C97DF2300123B44 /* RecordVoice */ = {
 			isa = PBXGroup;
 			children = (
+				E58D646A1C9AEFC600841375 /* ApplePutVC */,
 				E5A8695C1C97DF2300123B44 /* AppDelegate.swift */,
 				E5A8695E1C97DF2300123B44 /* ViewController.swift */,
 				E5A869601C97DF2300123B44 /* Main.storyboard */,
 				E5A869631C97DF2300123B44 /* Assets.xcassets */,
 				E5A869651C97DF2300123B44 /* LaunchScreen.storyboard */,
 				E5A869681C97DF2300123B44 /* Info.plist */,
+				E58D646E1C9AEFEE00841375 /* Bridge-Header.h */,
+				E58189A71C9C252A004A5CE2 /* Topbar.swift */,
 			);
 			path = RecordVoice;
 			sourceTree = "<group>";
@@ -256,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58D646D1C9AEFC600841375 /* PutController.m in Sources */,
 				E5A8695F1C97DF2300123B44 /* ViewController.swift in Sources */,
 				E5A8695D1C97DF2300123B44 /* AppDelegate.swift in Sources */,
+				E58189A81C9C252A004A5CE2 /* Topbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +361,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -351,6 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6999a679-a68b-44c5-be4c-7e06788d6147";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -373,7 +407,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -388,6 +423,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6999a679-a68b-44c5-be4c-7e06788d6147";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -397,10 +433,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
 				INFOPLIST_FILE = RecordVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iMobDev.RecordVoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6999a679-a68b-44c5-be4c-7e06788d6147";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecordVoice/Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +449,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Deepak Patel (RH277A82X5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Deepak Patel (RH277A82X5)";
 				INFOPLIST_FILE = RecordVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iMobDev.RecordVoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6999a679-a68b-44c5-be4c-7e06788d6147";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecordVoice/Bridge-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +528,7 @@
 				E5A869831C97DF2400123B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A869841C97DF2400123B44 /* Build configuration list for PBXNativeTarget "RecordVoiceTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +537,7 @@
 				E5A869861C97DF2400123B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A869871C97DF2400123B44 /* Build configuration list for PBXNativeTarget "RecordVoiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +546,7 @@
 				E5A869891C97DF2400123B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
